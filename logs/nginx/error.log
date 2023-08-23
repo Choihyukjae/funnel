@@ -1,0 +1,1 @@
+2023/08/21 16:27:09 [error] 13560#8588: *8707 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /wp-admin/index.php HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "pracsite.local", referrer: "http://pracsite.local/wp-admin/site-editor.php"

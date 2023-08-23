@@ -1,0 +1,345 @@
+[21-Aug-2023 07:36:38 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:41 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:43 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:43 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:47 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:50 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:53 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:55 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 07:36:57 UTC] PHP Warning:  Constant JETPACK_SIGNATURE__HTTP_PORT already defined in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php on line 104
+[21-Aug-2023 08:57:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:16
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 16
+[21-Aug-2023 08:57:28 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 08:57:28 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 08:57:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:16
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 16
+[21-Aug-2023 08:57:44 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 08:57:44 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 08:57:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:16
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\funnel...')
+#4 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 16
+[21-Aug-2023 08:57:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:16
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 16
+[21-Aug-2023 08:57:51 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 08:57:51 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 08:59:50 UTC] PHP Warning:  include_once(C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin): Failed to open stream: Permission denied in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 08:59:50 UTC] PHP Warning:  include_once(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 08:59:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:16
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\funnel...')
+#4 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 16
+[21-Aug-2023 09:01:51 UTC] PHP Warning:  require_once(C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin): Failed to open stream: Permission denied in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:01:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:10
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\funnel...')
+#4 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:02:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php:99
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\plugins.php(10): require_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php(10): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#5 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\funnel...')
+#6 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php on line 99
+[21-Aug-2023 09:02:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:16
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 16
+[21-Aug-2023 09:02:52 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:02:52 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\capabilities.php:877
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\plugins.php(12): current_user_can('activate_plugin...')
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php(10): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#5 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#6 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\funnel...')
+#7 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\capabilities.php on line 877
+[21-Aug-2023 09:02:59 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:02:59 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:03:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\capabilities.php:877
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\plugins.php(12): current_user_can('activate_plugin...')
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php(10): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#5 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#6 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\funnel...')
+#7 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\capabilities.php on line 877
+[21-Aug-2023 09:03:05 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:03:05 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:03:07 UTC] PHP Warning:  require_once(./plugins.php): Failed to open stream: No such file or directory in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:03:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './plugins.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:10
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-blog-header.php(13): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\index.php(17): require('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:03:07 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:03:07 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:04:39 UTC] PHP Warning:  require_once(./wp-admin/includes/plugin.php.): Failed to open stream: Permission denied in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:04:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './wp-admin/includes/plugin.php.' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:10
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:04:39 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:04:39 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:05:11 UTC] PHP Warning:  require_once(wp-admin/includes/plugin.php.): Failed to open stream: Permission denied in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:05:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'wp-admin/includes/plugin.php.' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:10
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:05:11 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:05:11 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:05:14 UTC] PHP Warning:  require_once(wp-admin/includes/plugin.php.): Failed to open stream: Permission denied in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:05:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'wp-admin/includes/plugin.php.' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:10
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[21-Aug-2023 09:05:14 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[21-Aug-2023 09:05:14 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 00:50:33 UTC] PHP Warning:  require_once(wp-admin/includes/plugin.php.): Failed to open stream: Permission denied in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[22-Aug-2023 00:50:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'wp-admin/includes/plugin.php.' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:10
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-settings.php(462): include_once()
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-config.php(107): require_once('C:\\Users\\funnel...')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-load.php(50): require_once('C:\\Users\\funnel...')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\index.php(10): require_once('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 10
+[22-Aug-2023 00:50:33 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 00:50:33 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 00:55:36 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\themes\twentytwentytwo\functions.php on line 76
+[22-Aug-2023 00:55:38 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\themes\twentytwentytwo\functions.php on line 76
+[22-Aug-2023 01:19:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "prac_add_menu" not found or invalid function name in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\menu.php(420): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(158): require('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php on line 310
+[22-Aug-2023 01:23:15 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "prac_add_menu" not found or invalid function name in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\menu.php(420): require_once('C:\\Users\\funnel...')
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(158): require('C:\\Users\\funnel...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php on line 310
+[22-Aug-2023 01:23:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_menu_callback" not found or invalid function name in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(259): do_action('toplevel_page_t...')
+#3 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php on line 310
+[22-Aug-2023 01:29:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "prac_callback" not found or invalid function name in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin.php(259): do_action('toplevel_page_t...')
+#3 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php on line 310
+[22-Aug-2023 01:53:36 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:53:52 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:53:56 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:53:56 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:53:56 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:53:59 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:53:59 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:53:59 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:07 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:54:12 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:54:12 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:12 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:14 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:54:14 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:14 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:33 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:54:33 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:33 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:35 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:54:35 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:35 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:37 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:54:37 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:37 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:39 UTC] PHP Parse error:  Invalid indentation - tabs and spaces cannot be mixed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 19
+[22-Aug-2023 01:54:39 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 01:54:39 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 02:19:28 UTC] PHP Fatal error:  Cannot redeclare prac_test_menu() (previously declared in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:14) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\themes\twentytwentytwo\functions.php on line 71
+[22-Aug-2023 02:19:30 UTC] PHP Fatal error:  Cannot redeclare prac_test_menu() (previously declared in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:14) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\themes\twentytwentytwo\functions.php on line 71
+[22-Aug-2023 02:19:32 UTC] PHP Fatal error:  Cannot redeclare prac_test_menu() (previously declared in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:14) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\themes\twentytwentytwo\functions.php on line 71
+[22-Aug-2023 08:21:25 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 79
+[22-Aug-2023 08:28:05 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _REQUEST in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 68
+[22-Aug-2023 08:28:05 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 08:28:05 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 08:28:34 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _REQUEST in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 68
+[22-Aug-2023 08:28:34 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 08:28:34 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:18:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 144
+[22-Aug-2023 09:19:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 144
+[22-Aug-2023 09:21:40 UTC] PHP Warning:  Undefined variable $args in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 144
+[22-Aug-2023 09:22:40 UTC] PHP Warning:  Undefined variable $args in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 144
+[22-Aug-2023 09:42:32 UTC] PHP Parse error:  Unclosed '{' on line 41 in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 153
+[22-Aug-2023 09:42:33 UTC] PHP Parse error:  Unclosed '{' on line 41 in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 153
+[22-Aug-2023 09:42:33 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:42:33 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:42:36 UTC] PHP Parse error:  Unclosed '{' on line 41 in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 153
+[22-Aug-2023 09:42:36 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:42:36 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:43:01 UTC] PHP Warning:  Undefined variable $wpdb in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 61
+[22-Aug-2023 09:43:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php:61
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(310): prefix_admin_add_foobar('')
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin-post.php(85): do_action('admin_post_add_...')
+#4 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 61
+[22-Aug-2023 09:44:03 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. wpdb::prepare()의 쿼리 인자는 자리표시자가 있어야만 합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:44:03 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리가 패스된 매개변수의 수에 대해 (2) 올바른 플레이스홀더 수 (0)를 포함하고 있지 않습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.8.3에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:44:03 UTC] WordPress database error Unknown column 'num_a' in 'field list' for query INSERT INTO `wp_options` (`0`, `1`) VALUES (num_a, 3) made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[22-Aug-2023 09:48:36 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. wpdb::prepare()의 쿼리 인자는 자리표시자가 있어야만 합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:48:36 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리가 패스된 매개변수의 수에 대해 (3) 올바른 플레이스홀더 수 (0)를 포함하고 있지 않습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.8.3에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:48:36 UTC] WordPress database error Unknown column 'num_a' in 'field list' for query INSERT INTO `wp_options` (`0`, `1`, `2`) VALUES (num_a, 3, yes) made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[22-Aug-2023 09:53:00 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. wpdb::prepare()의 쿼리 인자는 자리표시자가 있어야만 합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:53:00 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리가 패스된 매개변수의 수에 대해 (2) 올바른 플레이스홀더 수 (0)를 포함하고 있지 않습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.8.3에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:53:00 UTC] WordPress database error Unknown column 'num_a' in 'field list' for query INSERT INTO `wp_options` (`0`, `1`) VALUES (num_a, 3) made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[22-Aug-2023 09:53:08 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. wpdb::prepare()의 쿼리 인자는 자리표시자가 있어야만 합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:53:08 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리가 패스된 매개변수의 수에 대해 (2) 올바른 플레이스홀더 수 (0)를 포함하고 있지 않습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.8.3에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:53:08 UTC] WordPress database error Unknown column 'num_a' in 'field list' for query INSERT INTO `wp_options` (`0`, `1`) VALUES (num_a, 3) made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[22-Aug-2023 09:54:26 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. wpdb::prepare()의 쿼리 인자는 자리표시자가 있어야만 합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:54:26 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리가 패스된 매개변수의 수에 대해 (2) 올바른 플레이스홀더 수 (0)를 포함하고 있지 않습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.8.3에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:54:26 UTC] WordPress database error Unknown column 'num_a' in 'field list' for query INSERT INTO `wp_options` (`column1`, `column2`) VALUES (num_a, 3) made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[22-Aug-2023 09:54:26 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. wpdb::prepare()의 쿼리 인자는 자리표시자가 있어야만 합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:54:26 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리가 패스된 매개변수의 수에 대해 (2) 올바른 플레이스홀더 수 (0)를 포함하고 있지 않습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.8.3에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:54:26 UTC] WordPress database error Unknown column 'num_b' in 'field list' for query INSERT INTO `wp_options` (`column1`, `column2`) VALUES (num_b, 3) made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[22-Aug-2023 09:54:57 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. wpdb::prepare()의 쿼리 인자는 자리표시자가 있어야만 합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:54:57 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리가 패스된 매개변수의 수에 대해 (2) 올바른 플레이스홀더 수 (0)를 포함하고 있지 않습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.8.3에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 09:54:57 UTC] WordPress database error Unknown column 'num_a' in 'field list' for query INSERT INTO `wp_options` (`column1`, `column2`) VALUES (num_a, 3) made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[22-Aug-2023 10:00:07 UTC] PHP Notice:  함수 wpdb::prepare이(가) <strong>바르지 않게</strong> 호출됐습니다. 쿼리는 하나의 플레이스홀더를 예상하고 있지만 다수의 플레이스홀더 배열이 전송됐습니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 4.9.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[22-Aug-2023 10:00:07 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wpdb.php on line 2568
+[23-Aug-2023 01:00:29 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '223') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:01:12 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '12') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:01:12 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:04:03 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '23') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:04:03 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '112') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:05:49 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '123') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:05:49 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '1122') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:07:31 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '1232') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:16:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wpdb::update(), 2 passed in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 78 and at least 3 expected in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wpdb.php:2724
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php(78): wpdb->update('wp_options', Array)
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(310): prefix_admin_add_foobar('')
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin-post.php(85): do_action('admin_post_add_...')
+#5 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wpdb.php on line 2724
+[23-Aug-2023 01:44:17 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '312') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:44:17 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:44:28 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '213') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:44:28 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:46:22 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '121') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:46:22 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:46:29 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '121') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:46:29 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:48:47 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '0911') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:50:00 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '911') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:51:03 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '45') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 01:54:45 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '544') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:10:41 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '133') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:12:43 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '444') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:17:50 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '1234') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:22:46 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '2323') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:30:14 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '323') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:31:19 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '3213') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:31:50 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 199
+[23-Aug-2023 02:31:50 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[23-Aug-2023 02:31:50 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[23-Aug-2023 02:31:54 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\plugins\test-plugin\test-plugin.php on line 199
+[23-Aug-2023 02:31:54 UTC] PHP Notice:  함수 is_embed이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[23-Aug-2023 02:31:54 UTC] PHP Notice:  함수 is_search이(가) <strong>바르지 않게</strong> 호출됐습니다. 조건부 쿼리 태그는 쿼리를 실행하기 전까지 동작하지 않습니다. 그 전에, 언제나 false를 반환합니다. 더 자세한 정보는 <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">워드프레스 디버깅하기</a>를 보세요. (이 메세지는 버전 3.1.0에서 추가되었습니다.) in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5905
+[23-Aug-2023 02:32:13 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '3233') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:32:58 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '3233') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:36:58 UTC] WordPress database error Duplicate entry 'num_a' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_a', '413') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:40:11 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '444') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:40:46 UTC] WordPress database error Duplicate entry 'num_b' for key 'option_name' for query INSERT INTO `wp_options` (`option_name`, `option_value`) VALUES ('num_b', '444') made by do_action('admin_post_add_foobar'), WP_Hook->do_action, WP_Hook->apply_filters, prefix_admin_add_foobar
+[23-Aug-2023 02:46:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "prefix_admin_add_foobar" not found or invalid function name in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-admin\admin-post.php(85): do_action('admin_post_add_...')
+#3 {main}
+  thrown in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\class-wp-hook.php on line 310
+[23-Aug-2023 07:50:43 UTC] PHP Deprecated:  파일 header.php 없는 테마은(는) 버전 3.0.0 이후로 대체물이 가능하지 않아 <strong>폐기예정</strong>입니다. 테마의 header.php 템플릿을 포함해주세요. in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-includes\functions.php on line 5653
+[23-Aug-2023 09:09:41 UTC] PHP Parse error:  syntax error, unexpected token "=" in C:\Users\funnelmoa010\Local Sites\pracsite\app\public\wp-content\themes\funneltest\index.php on line 53
